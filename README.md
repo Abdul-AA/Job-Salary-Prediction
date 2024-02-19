@@ -30,5 +30,4 @@ For efficiency, a sample of 2,500 observations was extracted from the dataset. T
 
 ## Conclusion
 This project demonstrates the application of Naive Bayes and logistic regression models to classify job descriptions into high and low salary categories based on the text of the job descriptions. Through careful feature engineering and model selection, it was possible to identify key words associated with each salary category, providing insights into the factors that may influence salary levels in job postings.
-# job-salary-prediction
- Predicting salary from full job descriptions using NLP
+
