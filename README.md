@@ -23,7 +23,7 @@ For efficiency, a sample of 2,500 observations was extracted from the dataset. T
 ## Analysis of Words Indicative of Salary Levels
 
 ### High Salary Indicators
-- A logistic regression model, trained on text data processed by Count Vectorizer, identified words with the highest positive coefficients as indicators of high salaries. director, senior, leadership, dentist, consumer, player, reputation, lead, successfully, and image.
+- A logistic regression model, trained on text data processed by Count Vectorizer, identified words with the highest positive coefficients as indicators of high salaries. These words include: director, senior, leadership, dentist, consumer, player, reputation, lead, successfully, and image.
   
 ### Low Salary Indicators
 - Words with the lowest coefficients, suggesting a negative correlation with salary, were identified as indicators of low salaries. These words include: applicants, standard, basic, database, hours, depending, timely, selling, building, and stock.
