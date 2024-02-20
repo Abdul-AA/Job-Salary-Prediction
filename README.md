@@ -18,7 +18,7 @@ For efficiency, a sample of 2,500 observations was extracted from the dataset. T
 - Both Count Vectorizer and TF-IDF techniques were evaluated to determine their effectiveness in processing text data.
 - Count Vectorizer was found to be more effective, leading to higher accuracy in the predictive model.
 - Variations of Count Vectorizer, including changes in n-grams, max features, and document frequency thresholds, were tested but did not yield significant improvements.
-- Lemmatization was also experimented with; however, adjustments to hyperparameters in the count vectorizer did not improve the model performance, nor dis lemmatization.
+- Lemmatization was also experimented with; however, adjustments to hyperparameters in the count vectorizer did not improve the model performance, nor did lemmatization.
 
 ## Analysis of Words Indicative of Salary Levels
 
@@ -41,3 +41,4 @@ Several methods and steps can be adopted to improve model performance. Most of t
 
 ## Conclusion
 This project demonstrates the application of Naive Bayes and logistic regression models to classify job descriptions into high and low salary categories based on the text of the job descriptions. Through careful feature engineering and model selection, it was possible to identify key words associated with each salary category, providing insights into the factors that may influence salary levels in job postings.
+
