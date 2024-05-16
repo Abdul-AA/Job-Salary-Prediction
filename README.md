@@ -28,16 +28,6 @@ For efficiency, a sample of 2,500 observations was extracted from the dataset. T
 ### Low Salary Indicators
 - Words with the lowest coefficients, suggesting a negative correlation with salary, were identified as indicators of low salaries. These words include: applicants, standard, basic, database, hours, depending, timely, selling, building, and stock.
 
-## Improving Model Performance
-
-Several methods and steps can be adopted to improve model performance. Most of these methods are related to preprocessing techniques. Some of the steps include:
-
-- Although some combinations of preprocessing techniques were taken, there are many other combinations that can be explored. This includes different n-grams, lemmatization (or without), max features, max df, and min df.
-- Alternatively, a specialized corpus that accounts for specific words associated with job salary can be used when creating the embedding, instead of the general English language.
-- More observations from the data could be used in model building to augment the performance of the model.
-- Other algorithms such as XGBoost and other ensembles can be tried.
-- Other methods such as stacking, which combine multiple models to make the best possible prediction, could be explored.
-
 
 ## Conclusion
 This project demonstrates the application of Naive Bayes and logistic regression models to classify job descriptions into high and low salary categories based on the text of the job descriptions. Through careful feature engineering and model selection, it was possible to identify key words associated with each salary category, providing insights into the factors that may influence salary levels in job postings.
